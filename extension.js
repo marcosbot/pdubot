@@ -55,10 +55,10 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "BOTBABACA",
         language: "portuguese",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        maximumAfk: 120,
+        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
+        maximumAfk: 30,
         afkRemoval: true,
-        maximumDc: 60,
+        maximumDc: 30,
         bouncerPlus: false,
         lockdownEnabled: false,
         lockGuard: false,
@@ -96,7 +96,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
