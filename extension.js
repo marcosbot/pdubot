@@ -54,7 +54,7 @@
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "BOTBABACA",
-        language: "portuguese",
+        language: "pt",
         chatLink: "https://raw.githubusercontent.com/italocjs/basicBot/master/lang/pt.json",
         maximumAfk: 120,
         afkRemoval: true,
