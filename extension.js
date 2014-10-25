@@ -56,7 +56,7 @@
         botName: "BOTBABACA",
         language: "portuguese",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
-        maximumAfk: 30,
+        maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 30,
         bouncerPlus: false,
