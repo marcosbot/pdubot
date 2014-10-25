@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "BOTBABACA",
         language: "english",
-        chatLink: "https://rawgit.com/italocjs/basicBot/master/lang/en.json",
+        chatLink: "http://rawgit.com/italocjs/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 30,
@@ -105,6 +105,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/italocjs/basicBot/master/basicBot.js', extend);
 
 }).call(this);
